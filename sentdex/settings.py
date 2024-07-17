@@ -132,8 +132,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_USE_TLS=True
 EMAIL_PORT=587
-EMAIL_HOST_USER='202305442mar.venkatswaroope3@gmail.com'
-EMAIL_HOST_PASSWORD = 'nhvhzmjtsmxxxrpr'
+EMAIL_HOST_USER='shinyhat788@gmail.com'
+EMAIL_HOST_PASSWORD = 'negekoefbxstzfxl'
 # Dont forgot to allow access in google account ---->   accounts.google.com-->security->less secure app -->allow 
 # this for sending verification mail
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

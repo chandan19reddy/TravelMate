@@ -212,7 +212,7 @@ def card_payment(request):
         # print(amt)
         send_mail('OTP for Debit card Payment',
                     msg,
-                    '202305442mar.venkatswaroope3@gmail.com',
+                    'shinyhat788@gmail.com',
                     [mail_id],
                     fail_silently=False)
         return render(request, 'OTP.html')
