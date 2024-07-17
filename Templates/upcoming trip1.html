@@ -124,12 +124,12 @@
                                             <li><a href="/upcoming_trips">Upcoming Trips</a></li>
                                             {% if user.is_authenticated %}
                                             <li>Hello, {{user.first_name}}</li>
-                                            <li><a href="logout">logout</a></li>
+                                            <li><a href="/logout">logout</a></li>
                                             {%else%}
-                                            <li><a href="login">Login</a></li>
-                                            <li><a href="register">Register</a></li>
+                                            <li><a href="/login">Login</a></li>
+                                            <li><a href="/register">Register</a></li>
                                             {%endif%}
-                                            <li><a href="contact-us">Contact</a></li>
+                                            <li><a href="/contact-us">Contact</a></li>
                                              </li>
 
                                         </ul>
